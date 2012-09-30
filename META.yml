@@ -1,0 +1,25 @@
+---
+abstract: 'A fast disk usage counter (du) with XS'
+author:
+  - 'Ryo Okamoto <ryo at aquahill dot net>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  Scalar::Util: 0
+configure_requires:
+  Module::Build: 0.40
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4002, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Filesys-DiskUsage-Fast
+provides:
+  Filesys::DiskUsage::Fast:
+    file: lib/Filesys/DiskUsage/Fast.pm
+    version: 0.01
+requires:
+  Test::More: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
