@@ -1,7 +1,7 @@
 {
    "abstract" : "A fast disk usage counter (du) with XS",
    "author" : [
-      "Ryo Okamoto, C<< <ryo at aquahill dot net> >>"
+      "Ryo Okamoto <ryo@aquahill.net>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.4.4",
@@ -57,17 +57,19 @@
    "provides" : {
       "Filesys::DiskUsage::Fast" : {
          "file" : "lib/Filesys/DiskUsage/Fast.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ryochin/p5-filesys-diskusage-fast/issues"
+      },
+      "homepage" : "https://github.com/ryochin/p5-filesys-diskusage-fast",
       "repository" : {
-         "url" : "ssh://ryo@repos.aquahill.net/var/repos/p5-filesys-diskusage-fast"
+         "url" : "git://github.com/ryochin/p5-filesys-diskusage-fast.git",
+         "web" : "https://github.com/ryochin/p5-filesys-diskusage-fast"
       }
    },
-   "version" : "0.03",
-   "x_contributors" : [
-      "Ryo Okamoto <ryo@aquahill.net>"
-   ]
+   "version" : "0.04"
 }
